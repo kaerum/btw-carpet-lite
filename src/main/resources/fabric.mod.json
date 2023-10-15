@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "btwcarpetlite",
+  "version": "${version}",
+
+  "name": "BTW Carpet Lite",
+  "description": "A port of some features of carpet mod",
+  "authors": [
+    "Kaerum"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "init": [
+      "com.github.kaerum.btwcarpetlite.BTWCarpetLite"
+    ]
+  },
+  "mixins": [
+    "btwcarpetlite.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "btwcommander": ">=0.1.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
